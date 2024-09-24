@@ -20,7 +20,7 @@ Current_Debt: Current amount of debt.
 Customer_Segment: Segments used for clustering (output for clustering).
 Loan_Approved: Whether the loan was approved or not (target variable for classification).
 Methodology:
-### 1. Loan Eligibility Classification:
+### 1. Loan Eligibility Classification (Classification.ipynb):
 Data Preprocessing:
 Handle missing values (if any).
 Convert categorical variables into numerical format (e.g., Employment_Status).
@@ -30,7 +30,7 @@ Implement both RandomForestClassifier and XGBoostClassifier from the scikit-lear
 Used GridSearchCV to tune hyperparameters for both models.
 Model Evaluation:
 Evaluate the model’s performance using metrics like Accuracy.
-### 2. Customer Clustering:
+### 2. Customer Clustering (USERS.ipynb):
 Data Preprocessing:
 Normalize the numerical data to ensure all features contribute equally to the clustering.
 Model Building:
