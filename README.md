@@ -2,7 +2,7 @@
 
 ### Loan Eligibility and Customer Clustering
 Introduction:
-###This project aims to:
+### This project aims to:
   ### 1.Predict loan eligibility for customers using a Random Forest classification model.
   ### 2.Group customers into segments using K-Means clustering based on behavioral and financial attributes.
 The models are built using provided customer data, and the project demonstrates two key components of customer analysis: loan eligibility prediction and segmentation for personalized strategies.
@@ -26,7 +26,7 @@ Handle missing values (if any).
 Convert categorical variables into numerical format (e.g., Employment_Status).
 Split the dataset into features (X) and target variable (y).
 Model Building:
-Implement RandomForestClassifier from the scikit-learn library.
+Implement both XGBOOST AND RandomForestClassifier from the scikit-learn library using GridSearch parameters tuning.
 Train the model using the training data to predict whether a loan should be approved.
 Model Evaluation:
 Evaluate the model’s performance using metrics like Accuracy, Precision, Recall, and F1-Score.
@@ -39,6 +39,6 @@ Use the Elbow method to determine the optimal number of clusters.
 Cluster Analysis:
 Visualize and analyze the clusters based on key attributes like income, debt, and credit score.
 
-### This project demonstrates how machine learning techniques can be used to:
-  ### Predict loan eligibility using a Random Forest classification model.
-  ### Group customers into segments using K-Means clustering for better marketing and risk management strategies.
+## This project demonstrates how machine learning techniques can be used to:
+  # Predict loan eligibility using a Random Forest classification model.
+  # Group customers into segments using K-Means clustering for better marketing and risk management strategies.
